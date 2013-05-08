@@ -1,0 +1,7 @@
+PRIVATE_FILES_LOC="http://www.example.com/private"
+
+GIT_NAME="John Doe"
+GIT_EMAIL="jd@example.com"
+
+PRIVATE_KEY_URL="$PRIVATE_FILES_LOC/id_rsa"
+PUB_KEY_URL="$PRIVATE_FILES_LOC/id_rsa.pub"
