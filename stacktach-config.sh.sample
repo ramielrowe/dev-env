@@ -1,0 +1,4 @@
+export STACKTACH_REPO="git@github.com:ramielrowe/stacktach.git"
+export MYSQL_PASSWORD="password"
+export DEVSTACK_HOST="devstack.example.com"
+export RABBIT_PASSWORD="password"
