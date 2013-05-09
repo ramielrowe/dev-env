@@ -1,0 +1,11 @@
+{"deployments": [
+    {   
+        "name": "RegionOne",
+        "durable_queue": false,
+        "rabbit_host": "$DEVSTACK_HOST",
+        "rabbit_port": 5672,
+        "rabbit_userid": "",
+        "rabbit_password": "$RABBIT_PASSWORD",
+        "rabbit_virtual_host": "/"
+    }]
+}
