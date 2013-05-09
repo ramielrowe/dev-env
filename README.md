@@ -11,15 +11,10 @@ Add notification config to nova.conf
 /etc/nova/nova.conf
 
     notification_driver=nova.openstack.common.notifier.rabbit_notifier
-
     notification_topics=monitor,notifications
-
     notify_on_state_change=vm_and_task_state
-
     notify_on_any_change=True
-
     instance_usage_audit=True
-
     instance_usage_audit_period=hour
 
 ## Step 2 ##
