@@ -19,6 +19,8 @@ Add notification config to nova.conf
     instance_usage_audit=True
     instance_usage_audit_period=hour
 
+Restart nova services after making change.
+
 ### Step 2 ###
 - - -
 
