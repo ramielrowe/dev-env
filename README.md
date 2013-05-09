@@ -1,10 +1,12 @@
 This dev environment involves two machines, a devstack machine and a stacktach machine.
 
 ### Step 1 ###
+- - -
 
 Install devstack on one machine.
 
 ### Step 2 ###
+- - -
 
 Add notification config to nova.conf
 
@@ -18,19 +20,23 @@ Add notification config to nova.conf
     instance_usage_audit_period=hour
 
 ### Step 2 ###
+- - -
 
 Pull down this repo on your stacktach machine.
 
 ### Step 3 ###
+- - -
 
 Create config files.
 (dev-env-settings.sh and stacktach-config.sh)
 
 ### Step 4 (optional) ###
+- - -
 
 Run dev-env.sh
 
 ### Step 5 (optional) ###
+- - -
 
 Run stacktach.sh
 Attach to stacktach screen
