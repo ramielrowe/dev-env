@@ -4,7 +4,7 @@ cp rcfiles/vimrc.txt ~/.vimrc
 cp rcfiles/screenrc.txt ~/.screenrc
 
 # Install standard programs and project deps
-# sudo apt-get update
+sudo apt-get update
 sudo apt-get install vim screen libxml2-dev libxslt-dev libpq-dev libmysqlclient-dev python python-dev python-pip --assume-yes
 
 git config --global core.editor vim
