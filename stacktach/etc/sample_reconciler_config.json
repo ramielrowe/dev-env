@@ -1,0 +1,12 @@
+{
+    "client_class": "JSONBridgeClient",
+    "client": {
+        "url": "http://$DEVSTACK_HOST:8080/query/",
+        "username": "", 
+        "password": "", 
+        "databases": {
+            "RegionOne": "nova"
+        }   
+    },  
+    "region_mapping_loc": "~/stacktach_app/etc/region_mapping.json"
+}

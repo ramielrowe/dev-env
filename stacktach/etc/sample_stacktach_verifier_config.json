@@ -13,5 +13,7 @@
         "virtual_host": "/",
         "exchange_name": "stacktach",
         "routing_keys": ["notifications.info", "monitor.info"]
-    }
+    },
+    "reconcile": false,
+    "reconciler_config": "~/stacktach_app/etc/reconciler_config.json"
 }

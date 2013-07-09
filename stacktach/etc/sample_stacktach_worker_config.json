@@ -6,6 +6,11 @@
         "rabbit_port": 5672,
         "rabbit_userid": "",
         "rabbit_password": "$RABBIT_PASSWORD",
-        "rabbit_virtual_host": "/"
+        "rabbit_virtual_host": "/",
+        "exit_on_exception": false,
+        "topics": {
+            "nova": ["monitor.info", "monitor.error"],
+            "glance": ["monitor_glance.info", "monitor_glance.error", "monitor_glance.warn"]
+        }
     }]
 }
