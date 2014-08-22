@@ -8,5 +8,5 @@ set noswapfile
 set history=50      " keep 50 lines of command line history
 set ruler       " show the cursor position all the time
 set smartindent
-highlight OverLength ctermbg=yellow ctermfg=white guibg=#592929
+highlight OverLength ctermbg=yellow ctermfg=black guibg=#592929
 match OverLength /\%80v.\+/
